@@ -11,6 +11,10 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1",
-    "gulp-update": "0.0.2"
+    "gulp-update": "0.0.2",
+    "minimatch": "^3.0.2"
+  },
+  "dependencies": {
+    "lodash.update": "^4.10.2"
   }
 }
