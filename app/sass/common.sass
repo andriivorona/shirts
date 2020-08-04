@@ -1,0 +1,159 @@
+@import "_reset.scss"
+@import "_flex_classes.scss"
+
+
+body
+    font-size: 1.14vmax
+    line-height: 1.1vmax
+    font-weight: 400
+    font-family: Open Sans, sans-serif
+ 
+ 
+ 
+p, nav
+  font-size: 1.14vmax
+
+
+
+img
+    max-width: 100%
+    height: auto     
+
+
+.wrap
+    width: 70vw 
+    position: relative
+    margin: 0 auto
+    // border: 1px solid red
+
+a
+    text-decoration: none
+    color: #000
+
+li
+    list-style: none   
+
+.logo
+    padding-top: 1.66vmax
+    padding-bottom: 1.66vmax
+ 
+nav
+    li
+        padding: 2.90vmax 1.66vmax 1.66vmax 1.66vmax
+
+.type_container
+    height: 22.5vmax
+    background-color: #f0f0f0
+    
+
+
+    
+.content_type
+        img
+         padding: 1.66vmax 0 1.66vmax 2.40vmax
+         width: 32.33vw
+         height: 19.83vmax
+
+.text_type
+    h1
+    font-size: 1.75vmax
+    line-height: 2.33vmax
+    font-weight: bold
+    color: #000000
+    padding:  1.66vmax  1.66vmax  1.66vmax 1.90vmax
+
+.text_type
+    p 
+        color: #8d8d8d
+        font-size: 1.16vmax
+        line-height: 1.66vmax
+        font-weight: 400
+        padding: 1.2vmax 0 0
+
+.bttn
+    width: 9.58vw
+    height: 2.41vmax 
+    margin-top: 18px
+    background-color: #c73b32
+    border: none
+
+.bttn a         
+    color: #fff
+    font-size: 1vmax
+    line-height: 1.80vmax
+    font-weight: 400
+
+.block_twoo
+    margin-top: 2.5vmax
+
+.layer img 
+    padding-left: 0.7vmax
+    
+.layer span
+    padding-left: 1.41vmax
+    padding-right: 5.25vmax
+    font-size: 1vmax
+    line-height: 1.3vmax
+    font-style: italic
+    color: #000000
+    font-weight: 500
+
+.block
+    margin-top: 2.5vmax
+   
+
+.block h2, h3, h4, h5
+    font-size: 1.5vmax
+    line-height: 1.4vmax
+    font-weight: bold
+    color: #000
+    margin-bottom: 1.25vmax
+.block p 
+    font-size: 1.16vmax
+    line-height: 1.5vmax
+    font-weight: 400
+    color: #8d8d8d
+
+
+@media screen and (max-width: 1200px)
+ .type_container
+    width: 70vw
+    height: 43vmax
+    // background-color: #fff
+
+ .content_type
+    -webkit-flex-direction: column
+    -moz-flex-direction: column
+    -ms-flex-direction: column
+    -o-flex-direction: column
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+ .text_type
+    justify-content: center
+    align-items: center
+
+@media screen and (max-width: 1024px)
+ .bttn
+    width: 12vw
+    margin-top: 2.5vmax
+ .bttn a
+    font-size: 1.3vmax    
+
+@media screen and (max-width: 575px) 
+  .block_twoo
+        flex-flow: row wrap 
+        justify-content: center
+        align-items: center
+        
+  .layer 
+        width: 35%
+        margin-top: 3vmax
+  .bttn
+    width: 15vw
+    height: 4vmax
+    margin-top: 2.5vmax
+  .bttn a
+    font-size: 1.7vmax    
+

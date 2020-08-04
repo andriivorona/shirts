@@ -1,0 +1,94 @@
+// =============================================================================
+// PATH
+// =============================================================================
+$back-dir: '../';
+$path-img: $back-dir + 'img/';
+
+// end PATH
+
+
+
+// =============================================================================
+// DIMENSIONS
+// =============================================================================
+
+$container-padding: 20px;
+$max-width-container: 1362px;
+
+
+// end DIMENSIONS
+
+
+// =============================================================================
+// FONT
+// =============================================================================
+// colors
+$clr-white: #fff; 
+$clr-black: #000;
+// $clr-blue: #0060a0;
+// $clr-red: #ca161f;
+// $input-color-placeholder: #60ba62;
+
+$font-ubuntu:					'Ubuntu', sans-serif;
+
+$font-base:							$font-ubuntu;
+
+
+$browser-context: 16;
+$text-color: $clr-black;
+$font-family-base: $font-base;
+$font-size-base: 16px;
+$line-height-main: 1;
+$headings-font-weight: 400;
+$link-color: inherit;
+$link-hover-color: inherit;
+
+
+
+@function em($pixels, $context: $browser-context) {
+	@return ($pixels / $context) * 1em;
+}
+
+
+// end FONT
+
+// =============================================================================
+// COLORS
+// =============================================================================
+
+$clr-base:			#222;
+$clr-text:			$clr-black;
+
+// end COLORS
+
+
+
+// =============================================================================
+// BREAKPOINTS / GRID
+// =============================================================================
+
+// mq
+$mq-breakpoints: () !default;
+
+// Breakpoints
+$screen-xs:                  480px !default; // xs
+$screen-sm:                  768px !default; // sm
+$screen-md:                  992px !default; // md
+$screen-lg:                  1400px !default; // lg
+$screen-xs-max:              ($screen-sm - 1) !default;
+$screen-sm-max:              ($screen-md - 1) !default;
+$screen-md-max:              ($screen-lg - 1) !default;
+
+
+// Container sizes
+$container-sm:            	(720px) !default;
+$container-md:           	(940px) !default;
+$container-lg:        		($max-width-container) !default;
+
+// end BREAKPOINTS
+// border: 1px solid red;
+// border-width: 2px 2px 0 0;
+
+// &.open .arrow {
+
+	// }

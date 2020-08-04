@@ -1,0 +1,52 @@
+
+// =============================================================================
+// BTN VAR
+// =============================================================================
+/* buttons */
+.btn-border-clr{
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 700;
+	color: #5f4975;
+	border: 1px solid #5f4975;
+	padding: 15px 52px 12px 25px;
+	min-width: 270px;
+	text-transform: uppercase;
+	position: relative;
+	text-decoration: none;
+	&:before{
+		content: '';
+		position: absolute;
+		background: url(../img/ico-subloading.png) 50% 50% no-repeat;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		right: 20px;
+		width: 16px;
+		height: 15px;
+	}
+	&:hover{
+		background: #dadada;
+		color: $clr-white;
+	}
+}
+.btn-bg-clr{
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 700;
+	color: none;;
+	min-width: 39px;
+	text-decoration: none;
+	&:hover{
+		background: $clr-white;
+		color: #5f4975;
+		border: 1px solid #5f4975;
+	}
+}
+
+
+
+// end CUSTOM BTN

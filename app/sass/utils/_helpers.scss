@@ -1,0 +1,55 @@
+
+// // =============================================================================
+// // HELPERS
+// // =============================================================================
+
+// .sr-only {
+// 	@include sr-only();
+// }
+
+// .clearfix {
+// 	@include clearfix();
+// }
+
+
+
+// img[data-object-fit="contain"] {
+// 	object-fit: contain;
+// }
+
+// img[data-object-fit="cover"] {
+// 	object-fit: cover;
+// }
+
+// // unvisible
+// .unvisible {
+// 	display: none !important;
+// }
+
+// // not displayable
+// .not-displayable,.hidden-element {
+// 	display: none;
+// }
+
+// .hidden {
+// 	display: none !important;
+// 	visibility: hidden !important;
+// }
+
+// // alignment
+// .text-left {
+// 	text-align: left;
+// }
+// .text-right {
+// 	text-align: right;
+// }
+// .text-center {
+// 	text-align: center;
+// }
+
+// // colors
+// .clr-base {
+// 	color: $clr-base;
+// }
+
+// // end HELPERS
